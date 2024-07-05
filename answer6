@@ -1,0 +1,5 @@
+const isStrongPassword = (password) => password.length >= 8;
+
+// Example usage:
+console.log(isStrongPassword("1234567")); // Output: false
+console.log(isStrongPassword("12345678")); // Output: true
